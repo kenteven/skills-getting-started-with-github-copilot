@@ -63,6 +63,7 @@ section h3 {
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #f9f9f9;
+  padding-bottom: 20px; /* Add some spacing for participants list */
 }
 
 .activity-card h4 {
@@ -72,6 +73,32 @@ section h3 {
 
 .activity-card p {
   margin-bottom: 8px;
+}
+
+.participants-list {
+  margin-top: 10px;
+  padding: 10px;
+  background: #eef3fa;
+  border-radius: 4px;
+}
+
+.participants-list ul {
+  margin: 8px 0 0 18px;
+  padding-left: 0;
+  list-style-type: disc;
+}
+
+.participants-list li {
+  margin-bottom: 4px;
+  font-size: 15px;
+  color: #333;
+}
+
+.participants-list.empty {
+  background: #fafafa;
+  color: #888;
+  font-style: italic;
+  padding: 8px 10px;
 }
 
 .form-group {
